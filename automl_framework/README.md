@@ -1,5 +1,5 @@
-# AutoML Framework using Machine Learning         Intern ID:CITS1643
-
+# AutoML Framework using Machine Learning        
+ Intern ID:CITS1643
 Automatically selects the best ML model for any dataset — no manual tuning needed!
 
 ## What AutoML Does Automatically

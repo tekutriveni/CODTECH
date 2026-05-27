@@ -1,4 +1,4 @@
-# Genetic Algorithms for Optimization
+# Genetic Algorithms for Optimization   Intern ID:CITS1643
 
 A complete implementation of **Genetic Algorithms (GA)** from scratch using Python to solve three classic real-world optimization problems without using any machine learning libraries.
 

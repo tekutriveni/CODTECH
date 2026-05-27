@@ -1,0 +1,82 @@
+{
+  "best_model": "Linear Regression",
+  "forecast": [
+    {
+      "date": "2027-01-01",
+      "month": "Jan 2027",
+      "predicted_sales": 201822
+    },
+    {
+      "date": "2027-02-01",
+      "month": "Feb 2027",
+      "predicted_sales": 201698
+    },
+    {
+      "date": "2027-03-01",
+      "month": "Mar 2027",
+      "predicted_sales": 195177
+    },
+    {
+      "date": "2027-04-01",
+      "month": "Apr 2027",
+      "predicted_sales": 201822
+    },
+    {
+      "date": "2027-05-01",
+      "month": "May 2027",
+      "predicted_sales": 201698
+    },
+    {
+      "date": "2027-06-01",
+      "month": "Jun 2027",
+      "predicted_sales": 195177
+    },
+    {
+      "date": "2027-07-01",
+      "month": "Jul 2027",
+      "predicted_sales": 201822
+    },
+    {
+      "date": "2027-08-01",
+      "month": "Aug 2027",
+      "predicted_sales": 201698
+    },
+    {
+      "date": "2027-09-01",
+      "month": "Sep 2027",
+      "predicted_sales": 195177
+    },
+    {
+      "date": "2027-10-01",
+      "month": "Oct 2027",
+      "predicted_sales": 201822
+    },
+    {
+      "date": "2027-11-01",
+      "month": "Nov 2027",
+      "predicted_sales": 201698
+    },
+    {
+      "date": "2027-12-01",
+      "month": "Dec 2027",
+      "predicted_sales": 195177
+    }
+  ],
+  "model_results": {
+    "Linear Regression": {
+      "MAE": 0.0,
+      "RMSE": 0.0,
+      "R2": 1.0
+    },
+    "Random Forest": {
+      "MAE": 18384.37,
+      "RMSE": 20420.29,
+      "R2": 0.0757
+    },
+    "Gradient Boosting": {
+      "MAE": 15327.21,
+      "RMSE": 16962.01,
+      "R2": 0.3623
+    }
+  }
+}

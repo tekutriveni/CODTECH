@@ -1,0 +1,118 @@
+{
+  "model_results": {
+    "Logistic Regression": {
+      "hamming_loss": 0.2344,
+      "f1_micro": 0.4361,
+      "f1_macro": 0.1222,
+      "subset_accuracy": 0.0,
+      "per_category_f1": {
+        "Politics": 0.0,
+        "Sports": 0.0,
+        "Technology": 0.1538,
+        "Business": 0.0,
+        "Health": 0.0,
+        "Entertainment": 0.0,
+        "Science": 0.0,
+        "India": 0.8235
+      }
+    },
+    "Linear SVM": {
+      "hamming_loss": 0.2344,
+      "f1_micro": 0.4361,
+      "f1_macro": 0.1222,
+      "subset_accuracy": 0.0,
+      "per_category_f1": {
+        "Politics": 0.0,
+        "Sports": 0.0,
+        "Technology": 0.1538,
+        "Business": 0.0,
+        "Health": 0.0,
+        "Entertainment": 0.0,
+        "Science": 0.0,
+        "India": 0.8235
+      }
+    },
+    "Random Forest": {
+      "hamming_loss": 0.2344,
+      "f1_micro": 0.4361,
+      "f1_macro": 0.1307,
+      "subset_accuracy": 0.025,
+      "per_category_f1": {
+        "Politics": 0.0,
+        "Sports": 0.0,
+        "Technology": 0.0,
+        "Business": 0.0,
+        "Health": 0.0,
+        "Entertainment": 0.2222,
+        "Science": 0.0,
+        "India": 0.8235
+      }
+    }
+  },
+  "best_model": "Logistic Regression",
+  "categories": [
+    "Politics",
+    "Sports",
+    "Technology",
+    "Business",
+    "Health",
+    "Entertainment",
+    "Science",
+    "India"
+  ],
+  "sample_predictions": [
+    {
+      "text": "India beats Australia in cricket World Cup final to win championship",
+      "predicted_labels": [
+        "India"
+      ]
+    },
+    {
+      "text": "New AI chip by Intel promises 10x faster machine learning training",
+      "predicted_labels": [
+        "India"
+      ]
+    },
+    {
+      "text": "Government launches free health insurance for farmers across states",
+      "predicted_labels": [
+        "Politics",
+        "India"
+      ]
+    },
+    {
+      "text": "Bollywood blockbuster earns 300 crores in opening weekend record",
+      "predicted_labels": [
+        "India"
+      ]
+    },
+    {
+      "text": "ISRO Chandrayaan mission discovers water ice near lunar south pole",
+      "predicted_labels": [
+        "Technology",
+        "India"
+      ]
+    },
+    {
+      "text": "Startup raises 500 crore for electric vehicle charging network India",
+      "predicted_labels": [
+        "Technology",
+        "Business",
+        "India"
+      ]
+    },
+    {
+      "text": "Yoga festival in Rishikesh attracts thousands of international visitors",
+      "predicted_labels": [
+        "India"
+      ]
+    }
+  ],
+  "dataset_size": 200,
+  "metrics_explanation": {
+    "hamming_loss": "Lower is better. Fraction of wrong labels.",
+    "f1_micro": "Overall F1 treating each label equally.",
+    "f1_macro": "Average F1 per category (good for imbalance).",
+    "subset_accuracy": "Exact match \u2014 all labels must be correct."
+  }
+}
